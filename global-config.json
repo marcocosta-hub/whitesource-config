@@ -1,3 +1,15 @@
 {
-  "repoConfigMode": "createOnboardingPR"
+  "repoConfigMode": "createOnboardingPR",
+  "repoConfigFileName": ".whitesource",
+  "enableCustomProductMapping": false,
+  "customPropertyProductMapping": null,
+  "ignoreSpecificVulnerabilities": false,
+  "overrideConfigAllowList": null,
+  "ignoredRepos": {
+    "exactNames": []
+  },
+  "includedOwners": {
+    "exactNames": [],
+    "exactNamesFile": false
+  }
 }
