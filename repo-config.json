@@ -1,9 +1,8 @@
 {
   "scanSettings": {
-    "configMode": "AUTO",
-    "configExternalURL": "",
-    "baseBranches": [],
-    
+    "configMode": "EXTERNAL",
+    "configExternalURL": "https://raw.githubusercontent.com/marcocosta-hub/MendLegacyintegration/main/whitesource.config",
+    "baseBranches": []
   },
   "scanSettingsSAST": {
     "enableScan": true,
