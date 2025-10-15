@@ -1,7 +1,7 @@
 {
   "scanSettings": {
     "configMode": "EXTERNAL",
-    "configExternalURL": "https://raw.githubusercontent.com/marcocosta-hub/MendLegacyintegration/main/whitesource.config",
+    "configExternalURL": "https://raw.githubusercontent.com/marcocosta-hub/MendLegacyintegration/refs/heads/main/whitesource.config?token=GHSAT0AAAAAADNBCFYKC3OADC76MTDTGPUY2HPPQMA",
     "baseBranches": []
   },
   "scanSettingsSAST": {
