@@ -6,7 +6,7 @@
   "ignoreSpecificVulnerabilities": false,
   "overrideConfigAllowList": null,
   "ignoredRepos": {
-    "exactNames": []
+    "exactNames": ["marcocosta-hub/WebGoat"]
   },
   "includedOwners": {
     "exactNames": [],
