@@ -1,0 +1,16 @@
+{
+  "repositories": [
+    {
+      "fullName": "marcocosta-hub/MendLegacyintegration",
+      "branchName": "main",
+      "scanType": "sca",
+      "uploadScannerLogs": true
+    },
+    {
+      "fullName": "marcocosta-hub/MendLegacyintegration",
+      "branchName": "Dev",
+      "scanType": "sca",
+      "uploadScannerLogs": true
+    }
+  ]
+}
