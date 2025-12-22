@@ -2,7 +2,7 @@
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
-    "baseBranches": ["main", "Dev"]
+    "baseBranches": ["Dev"]
   },
   "scanSettingsSAST": {
     "enableScan": true,
