@@ -8,7 +8,7 @@
     "enableScan": true,
     "scanPullRequests": true,
     "incrementalScan": true,
-    "baseBranches": ["main", "Dev"],
+    "baseBranches": ["Dev"],
     "snippetSize": 10
   },
   "checkRunSettings": {
