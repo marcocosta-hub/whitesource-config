@@ -1,19 +1,18 @@
 {
   "scanSettings": {
     "configMode": "AUTO",
+    "configExternalURL": "",
     "baseBranches": ["main", "Dev"]
   },
   "scanSettingsSAST": {
     "enableScan": true,
     "scanPullRequests": true,
     "incrementalScan": true,
-    "baseBranches": ["Dev"],
+    "baseBranches": ["main", "Dev"],
     "snippetSize": 10
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
-    "strictMode": "warning",
-    "strictModeInfo": true,
     "displayMode": "diff",
     "useMendCheckNames": true
   },
@@ -30,6 +29,7 @@
     "issueType": "repo"
   },
   "remediateSettings": {
+    "enableRenovate": true,
     "workflowRules": {
       "enabled": true
     }
