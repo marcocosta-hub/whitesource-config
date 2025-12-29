@@ -1,7 +1,6 @@
 {
   "scanSettings": {
     "configMode": "AUTO",
-    "configExternalURL": "",
     "baseBranches": ["Dev"]
   },
   "scanSettingsSAST": {
@@ -13,6 +12,8 @@
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
+    "strictMode": "warning",
+    "strictModeInfo": true,
     "displayMode": "diff",
     "useMendCheckNames": true
   },
