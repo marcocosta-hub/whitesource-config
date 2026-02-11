@@ -2,7 +2,7 @@
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
-   "baseBranches": ["main"]
+   "baseBranches": []
 
   },
   "scanSettingsSAST": {
