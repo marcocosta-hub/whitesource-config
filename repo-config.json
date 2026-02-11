@@ -2,7 +2,7 @@
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
-   "baseBranches": ["feature/test-mend-config"]
+   "baseBranches": ["main"]
 
   },
   "scanSettingsSAST": {
