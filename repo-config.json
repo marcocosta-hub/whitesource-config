@@ -21,7 +21,7 @@
     "severityThreshold": "high"
   },
   "issueSettings": {
-    "minSeverityLevel": "LOW",
+    "minSeverityLevel": "HIGH",
     "issueType": "DEPENDENCY"
   },
   "issueSettingsSAST": {
