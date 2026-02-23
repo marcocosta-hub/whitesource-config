@@ -17,7 +17,7 @@
     "useMendCheckNames": true
   },
   "checkRunSettingsSAST": {
-    "checkRunConclusionLevel": "success",
+    "checkRunConclusionLevel": "failure",
     "severityThreshold": "high"
   },
   "issueSettings": {
