@@ -29,9 +29,9 @@
     "issueType": "repo"
   },
   "remediateSettings": {
-    "enableRenovate": false,
+    "enableRenovate": true,
     "workflowRules": {
-      "enabled": false
+      "enabled": true
     }
   },
   "imageSettings": {
