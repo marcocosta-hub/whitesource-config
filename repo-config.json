@@ -29,7 +29,7 @@
     "issueType": "repo"
   },
   "remediateSettings": {
-    "enableRenovate": false,
+    "renovateStrategy": "disabled",
     "workflowRules": {
       "enabled": false
     }
