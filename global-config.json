@@ -1,6 +1,6 @@
 {
   "repoConfigMode": "createOnboardingPR",
-  "repoConfigFileName": ".whitesource",
+  "repoConfigFileName": "",
   "enableCustomProductMapping": false,
   "customPropertyProductMapping": null,
   "ignoreSpecificVulnerabilities": false,
