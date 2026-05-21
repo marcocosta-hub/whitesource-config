@@ -1,45 +1,46 @@
-{
-  "scanSettings": {
-    "configMode": "AUTO",
-    "configExternalURL": "",
-    "baseBranches": ["main", "Dev"]
-  },
-  "scanSettingsSAST": {
-    "enableScan": true,
-    "scanPullRequests": true,
-    "incrementalScan": true,
-    "baseBranches": ["main", "Dev"],
-    "snippetSize": 10
-  },
-  "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
-    "displayMode": "diff",
-    "useMendCheckNames": true
-  },
-  "checkRunSettingsSAST": {
-    "checkRunConclusionLevel": "failure",
-    "severityThreshold": "high"
-  },
-  "issueSettings": {
-    "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
-  },
-  "issueSettingsSAST": {
-    "minSeverityLevel": "high",
-    "issueType": "repo"
-  },
-  "remediateSettings": {
-    "renovateStrategy": "disabled",
-    "workflowRules": {
-      "enabled": false
-    }
-  },
-  "imageSettings": {
-    "imageTracing": {
-      "enableImageTracingPR": false,
-      "addRepositoryCoordinate": false,
-      "addDockerfilePath": false,
-      "addMendIdentifier": false
+  {
+    "scanSettings": {
+      "configMode": "AUTO",
+      "configExternalURL": "",
+      "baseBranches": ["main", "dev"],
+      "versioning": {
+        "python": "3.12"
+      }
+    },
+    "scanSettingsSAST": {
+      "enableScan": true,
+      "scanPullRequests": true,
+      "incrementalScan": true,
+      "baseBranches": ["main", "dev"],
+      "snippetSize": 10
+    },
+    "checkRunSettings": {
+      "vulnerableCheckRunConclusionLevel": "failure",
+      "displayMode": "diff",
+      "useMendCheckNames": true
+    },
+    "checkRunSettingsSAST": {
+      "checkRunConclusionLevel": "failure",
+      "severityThreshold": "high"
+    },
+    "issueSettings": {
+      "minSeverityLevel": "LOW",
+      "issueType": "DEPENDENCY"
+    },
+    "issueSettingsSAST": {
+      "minSeverityLevel": "high",
+      "issueType": "repo"
+    },
+    "remediateSettings": {
+      "renovateStrategy": "disabled",
+      "workflowRules": {
+        "enabled": false
+      }
+    },
+    "imageSettings": {
+      "imageTracing": {
+        "enableImageTracingPX": false,
+        "addRepositoryCoordinate": false
+      }
     }
   }
-}
