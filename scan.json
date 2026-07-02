@@ -1,0 +1,9 @@
+{
+  "repositories": [
+    {
+      "fullName": "marcocosta-hub/LAB-REPO-CLASSIC",
+      "branchName": "main",
+      "scanType": "sca"
+    }
+  ]
+}
