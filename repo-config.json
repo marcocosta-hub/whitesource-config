@@ -1,7 +1,6 @@
-  {
+{
     "scanSettings": {
-      "configMode": "AUTO",
-      "configExternalURL": "",
+      "configMode": "LOCAL",
       "baseBranches": ["main", "dev"],
       "versioning": {
         "python": "3.12"
