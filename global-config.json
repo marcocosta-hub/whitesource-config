@@ -1,16 +1,1 @@
-{
-  "repoConfigMode": "createOnboardingPR",
-  "repoConfigFileName": "",
-  "enableCustomProductMapping": false,
-  "customPropertyProductMapping": null,
-  "ignoreSpecificVulnerabilities": false,
-  "overrideConfigAllowList": null,
-  "ignoredRepos": {
-    "exactNames": ["marcocosta-hub/WebGoat"]
-  },
-  "includedOwners": {
-    "exactNames": [],
-    "exactNamesFile": false
-  }
-}
-
+ewogICJyZXBvQ29uZmlnTW9kZSI6ICJjcmVhdGVPbmJvYXJkaW5nUFIiLAogICJyZXBvQ29uZmlnRmlsZU5hbWUiOiAiIiwKICAiZW5hYmxlQ3VzdG9tUHJvZHVjdE1hcHBpbmciOiB0cnVlLAogICJjdXN0b21Qcm9wZXJ0eVByb2R1Y3RNYXBwaW5nIjogbnVsbCwKICAiaWdub3JlU3BlY2lmaWNWdWxuZXJhYmlsaXRpZXMiOiBmYWxzZSwKICAib3ZlcnJpZGVDb25maWdBbGxvd0xpc3QiOiBudWxsLAogICJpZ25vcmVkUmVwb3MiOiB7CiAgICAiZXhhY3ROYW1lcyI6IFsibWFyY29jb3N0YS1odWIvV2ViR29hdCJdCiAgfSwKICAiaW5jbHVkZWRPd25lcnMiOiB7CiAgICAiZXhhY3ROYW1lcyI6IFtdLAogICAgImV4YWN0TmFtZXNGaWxlIjogZmFsc2UKICB9Cn0K
