@@ -38,10 +38,9 @@
     "issueType": "repo"
   },
   "remediateSettings": {
-    "enableRenovate": true,
+    "renovateStrategy": "disabled",
     "workflowRules": {
-      "enabled": true,
-      "minVulnerabilitySeverity": "LOW"
+      "enabled": false
     }
   },
   "imageSettings": {
