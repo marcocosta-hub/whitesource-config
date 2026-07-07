@@ -48,15 +48,5 @@
       "enableImageTracingPX": false,
       "addRepositoryCoordinate": false
     }
-  },
-  "hostRules": [
-    {
-      "matchHost": "https://pkgs.dev.azure.com/lab-test-00169768/_packaging/labfeed/nuget/v3/index.json",
-      "hostType": "nuget",
-      "userName": "lab-test-00169768",
-      "encrypted": {
-        "token": "wcBMA8xOaBJvzJNbAQf9GFyUumFHi0gVWrOCKHNjosXwsQ+KrhVkirCXteXJXX9tGncoCh8DDpv7IyJIgkZ2qEHhjF6Lf9MloLz6fws/Hh2rqfGRewFPoC6SBer0hdCneA7umVCcN5DoWZtx+wCF25JcbjNEU61qDpf/+jbX5N+JH/UX4FopKa6vtLsO3ql7kjDTkvbafrYrz9M2X4ET2Bm91MrixqppPmymozz0thhjDsSnYhYytHK0e2vvXakd4aOHYuzHGEInzjj1o1DjG8RqEp+oECNhMuRRRYy9YnfYnBSmF6aJCy9RylxDCGAVKkg35Atnv+ocRKIiUzXsxyrpPVCDSjbgRI6pLqh859JtAYv3Zm+YiL1xdd8EVOVUJvdVQq04BjKhnH5H0kKAiRb5ZzYzU73Gm1vUvvvbYYP2ThYqQLVizJ2S/pN3JLJRR7i5hBTDNvB7SasnqleQvADYsxDKCjMG2e0QB8Xy2N9dipxdrZ3krra6rR3lJA"
-      }
-    }
-  ]
+  }
 }
