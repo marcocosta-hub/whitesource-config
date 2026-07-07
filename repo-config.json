@@ -1,46 +1,62 @@
-  {
-    "scanSettings": {
-      "configMode": "AUTO",
-      "configExternalURL": "",
-      "baseBranches": ["main", "dev"],
-      "versioning": {
-        "python": "3.12"
-      }
-    },
-    "scanSettingsSAST": {
-      "enableScan": true,
-      "scanPullRequests": true,
-      "incrementalScan": true,
-      "baseBranches": ["main", "dev"],
-      "snippetSize": 10
-    },
-    "checkRunSettings": {
-      "vulnerableCheckRunConclusionLevel": "failure",
-      "displayMode": "diff",
-      "useMendCheckNames": true
-    },
-    "checkRunSettingsSAST": {
-      "checkRunConclusionLevel": "failure",
-      "severityThreshold": "high"
-    },
-    "issueSettings": {
-      "minSeverityLevel": "LOW",
-      "issueType": "DEPENDENCY"
-    },
-    "issueSettingsSAST": {
-      "minSeverityLevel": "high",
-      "issueType": "repo"
-    },
-    "remediateSettings": {
-      "renovateStrategy": "disabled",
-      "workflowRules": {
-        "enabled": false
-      }
-    },
-    "imageSettings": {
-      "imageTracing": {
-        "enableImageTracingPX": false,
-        "addRepositoryCoordinate": false
+{
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "baseBranches": [
+      "main",
+      "dev"
+    ],
+    "versioning": {
+      "python": "3.12"
+    }
+  },
+  "scanSettingsSAST": {
+    "enableScan": true,
+    "scanPullRequests": true,
+    "incrementalScan": true,
+    "baseBranches": [
+      "main",
+      "dev"
+    ],
+    "snippetSize": 10
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": true
+  },
+  "checkRunSettingsSAST": {
+    "checkRunConclusionLevel": "failure",
+    "severityThreshold": "high"
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
+  },
+  "issueSettingsSAST": {
+    "minSeverityLevel": "high",
+    "issueType": "repo"
+  },
+  "remediateSettings": {
+    "renovateStrategy": "disabled",
+    "workflowRules": {
+      "enabled": false
+    }
+  },
+  "imageSettings": {
+    "imageTracing": {
+      "enableImageTracingPX": false,
+      "addRepositoryCoordinate": false
+    }
+  },
+  "hostRules": [
+    {
+      "matchHost": "https://pkgs.dev.azure.com/lab-test-00169768/_packaging/labfeed/nuget/v3/index.json",
+      "hostType": "nuget",
+      "userName": "lab-test-00169768",
+      "encrypted": {
+        "token": "wcBMA8xOaBJvzJNbAQf9FkeNCKZX29AITYYgmKbdj6SrgjaWSeL34pF7Vyw6XP+pmRs4BBFQO8p4uXh0QxXf53b0wK5uWVnHlQquU83rR/RE48Y/okvxDyET2FaJyOAX9WU1fPMQoWt9VHeHJrOh+uvEtNo82NESU2ZwqK68IhijA9NQLliT226vo9orSMT2ivOB71MQ5T27yIgnWoC4ZeiECJ252UQUbnpoHTt7CBvBMWOe9PaNfo8aasp8RSrjPpbrlJgqHUZn7Di0CNieQGIXmhqpWEuuklOCW5D1earpwVlxRrg6BclolnF22o9FHvvEzzE/yx+fWVgtTFmau6FJS+GHJDXUkuSA5vZ7n9J6AWuyBNSsMh40+0N0fPptp9NQD1+48uMjZd8Luk4/0D14tGjLeLkcMUmiVPK66zE+HfoGQ3s5oJFo2FXJ/GYPQtJJXXHo6PZL+BZm9Mxtm/xEHQrBNJrOPM5KRJuWRPneKou0e6piBP7421rqGCYyIdnuZbZdlGkkT3M"
       }
     }
-  }
+  ]
+}
