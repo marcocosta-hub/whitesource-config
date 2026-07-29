@@ -4,7 +4,8 @@
     "configExternalURL": "",
     "baseBranches": [
       "main",
-      "dev"
+      "dev",
+      "lab/00170649"
     ],
     "versioning": {
       "python": "3.12"
