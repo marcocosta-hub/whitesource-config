@@ -38,7 +38,7 @@
     "issueType": "repo"
   },
   "remediateSettings": {
-    "renovateStrategy": "full",
+    "renovateStrategy": "disabled",
     "workflowRules": {
       "enabled": false
     }
