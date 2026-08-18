@@ -2,6 +2,7 @@
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
+    "enableIaC": true,
     "baseBranches": [
       "main",
       "dev"
@@ -23,7 +24,8 @@
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
-    "useMendCheckNames": true
+    "useMendCheckNames": true,
+    "iacCheckRunConclusionLevel": "failure"
   },
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
