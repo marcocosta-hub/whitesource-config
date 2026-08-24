@@ -50,30 +50,5 @@
       "enableImageTracingPX": false,
       "addRepositoryCoordinate": false
     }
-  },
-  "hostRules": [
-    {
-      "matchHost": "https://lab-test-00172051-a.example.com/artifactory",
-      "userName": "labuser",
-      "envVariablesMapping": {
-        "userName": "LAB_A_USER",
-        "token": "LAB_A_TOKEN"
-      },
-      "encrypted": {
-        "token": "wcBMA8xOaBJvzJNbAQgAlLz+rhrrEXknxq6MOXFiS6snju9g5LFpafQhCk8E96hgA00hFIqSlZpvj5cmnm5nV40dPrbBa3ZelV6xfX1m5QTdkWL5htVWU8b8RuFrvZA9mvnoyPz+Bbjw7YSKmzSPRBD32YEYaYlyNY8ns4TONWiKSlnWATDkVvEVGTrSutw/URtGUmvizq3GklZkyh7y+SVO92tYL4JoptEGBMfN2ZPUK6FiJLNARgwYVd01EEBC6Rv8wmUdztKzLFQAJUK6mSmeduwyBkzuw6pdA6esSSkB1unpqXUUMlgMvkoaAGI+Z4NstDN1wtDcL+XmLlAJlZiX4qd33i6btg84s+PdrdJvAdLct62/WUqNiMqt/izIeO6ms3gnQNWIDu8VT+cQ3R/qU5k7Qyp9gH2mrnJ6R2xDQsI8juvmw3GUVJ6I8QPguA/Ipi48IxxO/Abit5a4joruUwRWYNgLy8JRD68KXtRSojJmlBMGuRfzxGyJd7W5"
-      }
-    },
-    {
-      "matchHost": "https://lab-test-00172051-b.example.com/artifactory",
-      "hostType": "maven",
-      "userName": "labuser",
-      "envVariablesMapping": {
-        "userName": "LAB_B_USER",
-        "token": "LAB_B_TOKEN"
-      },
-      "encrypted": {
-        "token": "wcBMA8xOaBJvzJNbAQf/SRms4yJ3sTxZbDhQ2HwpTfrzcSX68XQBZ48hqroBSsucuo+8gh687omD4dohsnAF2zoiA3/dHU518rLnaXgLJ2QBEl2oNeBBeZsy12lA+EApaXHEm74Zet5klY35i3cDHZ/+pG/jWgQT4ID/jbzGxLnGCws47TdVRQkTPWVZ5hMvJp3cKAgLyWp4LWecWgaiE2VE7AlubxD2uj/6QMKAImeqEgqlPlU4+/BxT5E3X7vThLqqxDB20phD//y1PRnhEREzsz83H4EPInuWiOAz29RdvIec/8Em4jU9M3kxqOSONmw727ZCeSXtbVBOXzpbhHGNFwPaNJGYOeKMM9IJFtJvAWML7j2XL7w1ZQvt7nKp/XZMd4hTdW/jYYrZWYOLy0Zu6OCUH/rJSkudBd/XcXTEc7j9JYtHc5FUjkxQuytNQlwWxmpej/592hcR6AorqtbyaLOf2a1qWy28xn1QUiLrNhQy9YGxfc2W8kBxv7Tl"
-      }
-    }
-  ]
+  }
 }
